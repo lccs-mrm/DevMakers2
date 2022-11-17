@@ -1,8 +1,8 @@
-package Mod1_LogicaProgramacao;
+package Mod1_LogicaProgramacao.Lesson1;
 
 import java.util.Scanner;
 
-public class Class1Ex1 {
+public class Test2 {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

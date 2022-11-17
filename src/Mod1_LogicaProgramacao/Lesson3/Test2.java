@@ -1,4 +1,4 @@
-package Mod1_LogicaProgramacao;
+package Mod1_LogicaProgramacao.Lesson3;
 
 import java.util.Scanner;
 /*

@@ -1,4 +1,4 @@
-package Mod1_LogicaProgramacao;
+package Mod1_LogicaProgramacao.Lesson3;
 
 import java.util.Scanner;
 /*
@@ -25,32 +25,27 @@ public class Test1 {
 
         String operacao = "";
         boolean validarOperacao = false;
-        System.out.println("Por favor, escolha uma das quatro operações");
+        System.out.println("Por favor, escolha uma das quatro operações aritméticas");
         do {
             operacao = sc.next();
             switch (operacao) {
-                case "soma":
+                case "+" -> {
                     calculoSoma(number1, number2);
                     validarOperacao = true;
-                    break;
-
-                case "subtração":
+                }
+                case "-" -> {
                     calculoSubtracao(number1, number2);
                     validarOperacao = true;
-                    break;
-
-                case "multiplicação":
+                }
+                case "*" -> {
                     calculoMultiplicacao(number1, number2);
                     validarOperacao = true;
-                    break;
-
-                case "divisão":
+                }
+                case "/" -> {
                     calculoDivisao(number1, number2);
                     validarOperacao = true;
-                    break;
-
-                default:
-                    System.out.println("Opção inválida. Por favor, digite uma das duas médias, em uppercase e sem acento");
+                }
+                default -> System.out.println("Opção inválida. Por favor, digite uma das duas operações");
             }
         } while (!validarOperacao);
     }
@@ -76,6 +71,7 @@ public class Test1 {
     }
 
     private static void printFinal(double resultado){
+
         System.out.println("Resultado da operação: " + resultado);
     }
 }

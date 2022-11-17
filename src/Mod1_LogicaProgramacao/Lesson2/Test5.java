@@ -1,6 +1,6 @@
-package Mod1_LogicaProgramacao;
+package Mod1_LogicaProgramacao.Lesson2;
 
-public class Class2Ex5 {
+public class Test5 {
 
     public static void main(String[] args){
 
