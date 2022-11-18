@@ -1,19 +1,34 @@
 package Mod1_LogicaProgramacao.Lesson2;
 
+import java.util.Scanner;
+
 public class Test5 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        double divida = 10000.0;
-        double aplicacao = 1500.0;
-        int mes = 0;
+        double salario = 0.0;
+        double mediaSalario = 0.0;
+        double descontoSalario = 0.0;
+        double tercoSalario = 0.0;
+        double totalSalario = 0.0;
 
-        while(divida > aplicacao){
-            divida = divida + (divida * 0.025);
-            aplicacao = aplicacao + (aplicacao * 0.04);
-            mes++;
-        }
-        System.out.println("A quantidade de meses necessários é: " + mes);
-        System.out.println("Ou, aproximadamente, " + mes / 12 + " anos");
+        System.out.println("Informe seu salário");
+        Scanner sc = new Scanner(System.in);
+        salario = sc.nextDouble();
+
+        mediaSalario = (salario * 13) / 12;
+        System.out.println("Seu salário médio em 1 ano é " + mediaSalario);
+
+        descontoSalario = salario - (salario * 0.075);
+        System.out.println("Seu salário líquido é " + descontoSalario);
+
+        tercoSalario = salario + (salario / 3);
+        System.out.println("Seu salário com férias é " + tercoSalario);
+
+        totalSalario = (descontoSalario * 13) + tercoSalario;
+        System.out.println("Seu salário líquido anual é " + totalSalario);
+
+        totalSalario = (mediaSalario * 13) + tercoSalario;
+        System.out.println("Seu salário bruto anual é " + totalSalario);
     }
 }

@@ -16,7 +16,7 @@ package Mod1_LogicaProgramacao.Lesson3;
  */
 import java.util.Scanner;
 
-public class Test3 {
+public class Test11 {
 
     public static void main(String[] args) {
 

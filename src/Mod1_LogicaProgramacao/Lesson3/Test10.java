@@ -13,7 +13,7 @@ Saida:
 Nome e preço do produto mais caro
 Nome e preço do produto mais barato
  */
-public class Test2 {
+public class Test10 {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
