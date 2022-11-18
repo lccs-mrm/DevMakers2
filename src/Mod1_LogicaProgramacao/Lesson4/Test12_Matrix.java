@@ -7,7 +7,7 @@ Faça um programa que imprima uma matriz quadrada de dimensão N contendo:
 º o número 0 nos demais elementos.
 º N deve ser menor ou igual a 20.
 */
-public class Test12 {
+public class Test12_Matrix {
     public static void main(String[] args) {
 
         System.out.println("Informe o índice da matriz, entre 0 e 20.");
@@ -33,8 +33,9 @@ public class Test12 {
     }
     public static void printMatriz(int[][] matriz){
         for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length; j++) {
-                System.out.print(matriz[i][j] + " ");
+            int[] ints = matriz[i];
+            for (int j = 0; j < ints.length; j++) {
+                System.out.print(ints[j] + " ");
             }
             System.out.println();
         }

@@ -13,7 +13,7 @@ Saida:
 
 Resultado da operaçao
  */
-public class Test9 {
+public class Test9_TwoNumberCalculator {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
