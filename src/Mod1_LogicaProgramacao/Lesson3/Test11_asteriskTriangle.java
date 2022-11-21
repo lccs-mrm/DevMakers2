@@ -30,5 +30,6 @@ public class Test11_asteriskTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
