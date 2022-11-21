@@ -1,4 +1,4 @@
-package Mod1_LogicaProgramacao.Lesson4;
+package Mod1_LogicaProgramacao.Aula4;
 
 import java.util.Scanner;
 /* Vetores e matrizes na Linguagem Java

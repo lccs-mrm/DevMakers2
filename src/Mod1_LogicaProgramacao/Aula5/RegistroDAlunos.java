@@ -1,21 +1,29 @@
-package Mod1_LogicaProgramacao.Lesson5;
+package Mod1_LogicaProgramacao.Aula5;
 
 import java.util.Random;
+import java.util.Scanner;
+
 //Este programa deve:
 //- Ler um vetor "turma" de 5 alunos;
 //- Cada registro/objeto de aluno deve ter o número de matrícula do aluno e suas notas de 4 bimestres;
 //- Faça um método que imprima a lista de matrícula e notas de cada aluno;
 //- Faça um método que tenha como parâmetro um objeto Aluno e retorne a média das 4 notas;
 //- Percorra o vetor de alunos e imprima a matrícula e a média calculada (pela função criada) para cada aluno;
-public class Teste13_StudentsRegister {
+public class RegistroDAlunos {
   /*public static void main(String[] args){
-        //run();
+        //cadastroAlunos();
     */
-    public static void run(){
-        int [] matriculas = new int [5];
-        double[][] notasMatriz = new double[matriculas.length][4];
-        cadastroAlunos(matriculas, notasMatriz);
-        printMatriculaNotas(matriculas, notasMatriz);
+    public static void executar(){
+        System.out.println("\nNeste módulo aprendi lógica de programação e conceitos básicos de Java \n");
+        System.out.println("\nVocê quer executar o método? Use '1' para 'SIM'\n");
+        Scanner sc = new Scanner(System.in);
+        int condicao = sc.nextInt();
+        if (condicao == 1) {
+            int[] matriculas = new int[5];
+            double[][] notasMatriz = new double[matriculas.length][4];
+            cadastroAlunos(matriculas, notasMatriz);
+            printMatriculaNotas(matriculas, notasMatriz);
+        }
     }
     public static double mediaNotas(double[] notas){
         double media = 0;

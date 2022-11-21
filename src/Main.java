@@ -1,4 +1,5 @@
-import Mod1_LogicaProgramacao.Lesson5.Teste13_StudentsRegister;
+import Mod1_LogicaProgramacao.Aula5.RegistroDAlunos;
+import Mod1_LogicaProgramacao.MenuLogicaProgramacao;
 
 import java.util.Scanner;
 
@@ -27,39 +28,41 @@ public class Main {
             if (opcao == 8) {
                 System.out.print("\nAté logo!");
                 menu.close();
+                break;
             }
 
             switch (opcao) {
                 case 1:
-                    System.out.print("\nOpção Módulo 1 - Lógica de Programação");
+                    System.out.println("\nOpção Módulo 1 - Lógica de Programação \n");
+                    MenuLogicaProgramacao.menuLogica();
                     break;
 
                 case 2:
-                    System.out.print("\nOpção Módulo 2 - Programação Orientada a Objetos 1\n");
+                    System.out.println("\nOpção Módulo 2 - Programação Orientada a Objetos 1\n");
                     break;
 
                 case 3:
-                    System.out.print("\nOpção Programação Orientada a Objetos 2\n");
+                    System.out.println("\nOpção Programação Orientada a Objetos 2\n");
                     break;
 
                 case 4:
-                    System.out.print("\nOpção Banco de Dados SQL\n");
+                    System.out.println("\nOpção Banco de Dados SQL\n");
                     break;
 
                 case 5:
-                    System.out.print("\nOpção Técnicas de Programação 1\n");
+                    System.out.println("\nOpção Técnicas de Programação 1\n");
                     break;
 
                 case 6:
-                    System.out.print("\nOpção Programação Web 2\n");
+                    System.out.println("\nOpção Programação Web 2\n");
                     break;
 
                 case 7:
-                    System.out.print("\nOpção Testes Automatizados 1\n");
+                    System.out.println("\nOpção Testes Automatizados 1\n");
                     break;
 
                 default:
-                    System.out.print("\nOpção Inválida!");
+                    System.out.println("\nOpção Inválida!");
                     break;
             }
         }
