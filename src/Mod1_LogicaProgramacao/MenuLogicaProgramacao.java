@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MenuLogicaProgramacao {
 
-    public static void menu() {
+    public static void menuLogica() {
 
         Scanner menu = new Scanner (System.in);
 
