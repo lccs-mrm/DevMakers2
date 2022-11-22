@@ -1,10 +1,16 @@
 package Mod1_LogicaProgramacao.Aula2;
 
 import java.util.Scanner;
-
-public class Test6 {
-
-    public static void main(String[] args) {
+/*
+Neste exercício faço uso de booleans para imprimir uma condição.
+Também utilizo operador ternário.
+ */
+public class Exercício3_2_1 {
+    /**
+     * Nesta classe o usuário encontrará o uso de booleans para fazer definir a posição em um plano cartesiano.
+     * Em comentário está a mesma estrutura em "if else", em execução está com operador ternário.
+     */
+    public static void quadrante() {
 
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();

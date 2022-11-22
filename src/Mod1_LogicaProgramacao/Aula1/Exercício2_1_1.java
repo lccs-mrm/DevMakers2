@@ -1,10 +1,14 @@
 package Mod1_LogicaProgramacao.Aula1;
 
 import java.util.Scanner;
-
-public class Test2 {
-
-    public static void main(String[] args){
+/*
+O propósito desta atividade é armazenar variáveis via Scanner e fazer comparações com If else.
+ */
+public class Exercício2_1_1 {
+    /**
+     * Esta função vai comprar 3 números e informar o maior.
+     */
+    public static void comparaNumeros(){
         Scanner sc = new Scanner(System.in);
         int number1 = sc.nextInt();
         int number2 = sc.nextInt();

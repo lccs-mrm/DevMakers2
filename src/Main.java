@@ -1,4 +1,3 @@
-import Mod1_LogicaProgramacao.Aula5.RegistroDAlunos;
 import Mod1_LogicaProgramacao.MenuLogicaProgramacao;
 
 import java.util.Scanner;

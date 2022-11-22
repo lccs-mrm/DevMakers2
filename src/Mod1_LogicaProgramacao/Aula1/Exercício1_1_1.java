@@ -2,9 +2,16 @@ package Mod1_LogicaProgramacao.Aula1;
 
 import java.util.Scanner;
 
-public class Test1 {
-
-    public static void main(String[] args){
+public class Exercício1_1_1 {
+/*
+O propósito desta atividade é treinar a sintaxe do Scanner e o armazenamento de variáveis.
+ */
+    /**
+     * Esta função vai armazenar o cadastro de 1 pessoa;
+     * O cadastro contém nome, endereço, telefone, cidade e CEP;
+     * Ao final serão exibidas essas informações.
+     */
+    public static void cadastroPessoa(){
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite seu nome");

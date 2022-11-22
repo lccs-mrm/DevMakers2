@@ -16,9 +16,11 @@ package Mod1_LogicaProgramacao.Aula3;
  */
 import java.util.Scanner;
 
-public class Test11_asteriskTriangle {
-
-    public static void main(String[] args) {
+public class Exercício3_3_1 {
+    /**
+     * Nesta classe o usuário informa um número inteiro que define a base de um triângulo invertido feito com "*".
+     */
+    public static void trianguloAsteriscos() {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe um número inteiro e positivo");

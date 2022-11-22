@@ -1,10 +1,16 @@
 package Mod1_LogicaProgramacao.Aula2;
-
+/*
+Aqui estudo o uso de uma variável em uma sequência de operações.
+ */
 import java.util.Scanner;
 
-public class Test5 {
+/**
+ * Nesta classe o usuário informa o seu salário, e terá como retorno:
+ * Média anual, salário líquido mensal e anual, bruto anual e adicional de férias.
+ */
+public class Exercício2_2_1 {
 
-    public static void main(String[] args) {
+    public static void mediaSalario(){
 
         double salario = 0.0;
         double mediaSalario = 0.0;

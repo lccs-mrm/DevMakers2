@@ -1,10 +1,14 @@
 package Mod1_LogicaProgramacao.Aula2;
 
 import java.util.Scanner;
-
-public class Test4 {
-
-    public static void main(String[] args) {
+/*
+Aqui estudo uso de "switch case" tomando como exemplo aumento salarial.
+ */
+public class Exercício1_2_1 {
+    /**
+     * Nesta classe será informado um cargo, entre 3, e será o valor do salário após aumento.
+     */
+    public static void aumentoSalario() {
 
         double salario = 0.0;
         Scanner sc = new Scanner(System.in);

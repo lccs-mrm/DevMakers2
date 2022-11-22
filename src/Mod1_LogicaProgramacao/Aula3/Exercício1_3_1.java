@@ -13,9 +13,14 @@ Saida:
 
 Resultado da operaçao
  */
-public class Test9_TwoNumberCalculator {
-
-    public static void main(String[] args) {
+public class Exercício1_3_1 {
+    /**
+     * Aqui o usuário pode inserir 2 números no formato double e uma string indicando a operação aritmética a executar;
+     * As entradas entrarão em um "do while" alimentando por "switch case".
+     * O laço começa até que um "switch case" seja acionado, então a variável boolean se torna verdadeira e a
+     * condição "while" é encerrada.
+     */
+    public static void calcula2Numeros() {
         Scanner sc = new Scanner(System.in);
         double number1 = 0;
         double number2 = 0;
@@ -50,11 +55,16 @@ public class Test9_TwoNumberCalculator {
         } while (!validarOperacao);
     }
 
+    /**
+     * Aqui estão 4 métodos executando as operações;
+     * @param number1 vai ser operado conforme informado no início da operação;
+     * @param number2 vai ser operado conforme informado no início da operação;
+     */
     static void calculoSoma(double number1, double number2){
         printFinal(number1 + number2);
     }
 
-    private static void calculoSubtracao(double number1, double number2){
+    static void calculoSubtracao(double number1, double number2){
         printFinal(number1 - number2);
     }
 
@@ -70,6 +80,11 @@ public class Test9_TwoNumberCalculator {
         }
     }
 
+    /**
+     * Após um dos quatro métodos ser chamado pelo "switch case",
+     * @param resultado é uma variável produzida em um dos quatro métodos acima.
+     * ela então é usada no método "printFinal", descrito abaixo, fazendo apenas a impressão do resultado da operação.
+     */
     private static void printFinal(double resultado){
 
         System.out.println("Resultado da operação: " + resultado);

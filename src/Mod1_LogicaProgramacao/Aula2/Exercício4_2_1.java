@@ -1,10 +1,14 @@
 package Mod1_LogicaProgramacao.Aula2;
 
 import java.util.Scanner;
-
-public class Test7 {
-
-    public static void main(String[] args) {
+/*
+Aqui é feita uma identificação de números primos com while.
+ */
+public class Exercício4_2_1 {
+    /**
+     * Nesta classe o usuário insere um número e tem como retorno se é primo ou não.
+     */
+    public static void ehPrimo() {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite um número \n");

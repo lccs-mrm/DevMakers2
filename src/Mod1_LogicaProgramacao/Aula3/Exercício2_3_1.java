@@ -13,9 +13,15 @@ Saida:
 Nome e preço do produto mais caro
 Nome e preço do produto mais barato
  */
-public class Test10_PriceComparison {
-
-    public static void main(String[] args){
+public class Exercício2_3_1 {
+    /**
+     * Nesta classe o usuário informa um produto e seu preço;
+     * Então é perguntado se quer informar um novo produto;
+     * Por fim, um laço "do while" com a condição de informar um novo produto aninha um laço "if else";
+     * O laço "if else" compara as variáveis informadas e armazena o produto mais caro e o mais barato;
+     * Quando o laço "do while" é encerrado, a classe imprime os dois produtos, mais caro e mais barato.
+     */
+    public static void compara2Precos(){
         Scanner sc = new Scanner(System.in);
         String produto = "";
         double preco = 0.0;
