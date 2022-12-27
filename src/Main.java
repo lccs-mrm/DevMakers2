@@ -8,6 +8,29 @@ import Mod7_AutomatedTests1.MenuAT1;
 
 import java.util.Scanner;
 
+/**
+ * @author lucavicchi
+ * @version 1.0.0
+ * Registro de estudo do curso de Back-end na Ada from Let's Code
+ * segue anotações de documentação;
+ */
+/*
+@author - nome do desenvolvedor;
+
+@deprecated - marca o método como deprecated. Algumas IDE's exibirão um alerta de compilação quando o método for chamado;
+
+@exception - documenta uma exceção lançada por um método - veja também @throws;
+
+@param - define um parâmetro do método. Requerido para cada parâmetro.
+
+@return - documenta o valor de retorno. Essa tag não deve ser usada para construtores ou métodos definidos com o tipo de retorno void.
+
+@see - documenta uma associação a outro método ou classe.
+
+@Since - documenta uma exceção lançada por um método. É um sinônimo para a @exception introduzida no Javadoc 1.2;
+
+@version - exibe o número da versão de uma classe ou método.
+ */
 public class Main {
     public static void main(String[] args) {
 
